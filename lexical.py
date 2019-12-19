@@ -1,3 +1,19 @@
+""" This is a program to perform lexical analysis for a c program in python
+
+C program to be stored in a file InputProg.c """
+
+#include <stdio.h> 
+ #int main()
+#{
+#    int a , b , c;
+#    b= 5 ;
+#    c= 6 ;
+#    a=b+c;
+#    printf("%d",a);
+#    return 0;
+#}
+
+
 #opening file
 f = open('InputProg.c','r')
 #defining the tokens
